@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Travelmeter</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="aa">ans</string>
+    <string name="kkd">Convert</string>
+
+    <string-array name="place_type">
+        <item>airport</item>
+        <item>atm</item>
+        <item>bank</item>
+        <item>bus_station</item>
+        <item>church</item>
+        <item>doctor</item>
+        <item>hospital</item>
+        <item>mosque</item>
+        <item>movie_theater</item>
+        <item>hindu_temple</item>
+        <item>restaurant</item>
+    </string-array>
+
+    <string-array name="place_type_name">
+        <item>Airport</item>
+        <item>ATM</item>
+        <item>Bank</item>
+        <item>Bus Station</item>
+        <item>Church</item>
+        <item>Doctor</item>
+        <item>Hospital</item>
+        <item>Mosque</item>
+        <item>Movie Theater</item>
+        <item>Hindu Temple</item>
+        <item>Restaurant</item>
+    </string-array>
+    <string-array name="countries">
+        <item>Australia</item>
+        <item>Bangladesh</item>
+        <item>India</item>
+        <item>Japan</item>
+        <item>Korea</item>
+        <item>Nepal</item>
+        <item>Pakistan</item>
+        <item>USA</item>
+
+
+    </string-array>
+    <string name="title_activity_demo">Demo</string>
+    <string name="result1">Result</string>
+    <string name="btnconvert">convert</string>
+    <string name="title_activity_check_ins">CheckInsActivity</string>
+    <string name="empty">ss</string>
+    <string name="intro_title">Place Picker</string>
+    <string name="pick_title">bb</string>
+    <string name="pick_text">cc</string>
+    <string name="pick_action">Pick a place</string>
+    <string name="detail_text">ee</string>
+    <string name="ddffg">Select Country</string>
+    <string name="sss">asd</string>
+</resources>

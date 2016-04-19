@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#141111"
+    android:textAlignment="center"
+    android:weightSum="1"
+    tools:context="MainMenuActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Main Menu"
+        android:textSize="30sp"
+        android:id="@+id/textView4"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#fffcf8" />
+
+    <Button
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/btn_design"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="Maps"
+        android:id="@+id/button"
+        android:onClick="ClickMaps"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <Button
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:background="@drawable/btn_design"
+        android:shadowColor="#A8A8A8"
+        android:layout_marginTop="10dp"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="Place Picker"
+        android:id="@+id/button2"
+        android:onClick="ClickPlacePicker"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <Button
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_marginTop="10dp"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:background="@drawable/btn_design"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="Timezone"
+        android:id="@+id/button3"
+        android:layout_gravity="center_horizontal"
+        android:onClick="ClickTzc" />
+
+    <Button
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_design"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="Check-Ins"
+        android:id="@+id/button4"
+        android:layout_gravity="center_horizontal"
+        android:onClick="ClickCheckins" />
+    <Button
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:background="@drawable/btn_design"
+        android:shadowColor="#A8A8A8"
+        android:layout_marginTop="10dp"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="View Check-Ins"
+        android:id="@+id/button5"
+        android:onClick="ClickViewcheckins"
+        android:layout_gravity="center_horizontal"
+        />
+
+   
+
+</LinearLayout>

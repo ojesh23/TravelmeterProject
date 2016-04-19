@@ -1,0 +1,32 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="margin_tiny">4dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_medium">16dp</dimen>
+    <dimen name="margin_large">32dp</dimen>
+    <dimen name="margin_huge">64dp</dimen>
+
+    <!-- Semantic definitions -->
+
+    <item name="card_layout" type="id"/>
+    <item name="card_actionarea" type="id"/>
+    <item name="card_contentarea" type="id"/>
+    <item name="card_title" type="id"/>
+    <item name="card_content" type="id"/>
+    <item name="card_overlay" type="id"/>
+    <dimen name="card_content_text">14sp</dimen>
+    <dimen name="card_content_title">24sp</dimen>
+
+    <dimen name="card_padding">15dp</dimen>
+    <dimen name="card_margin">10dp</dimen>
+
+    <dimen name="card_action_margin">3dp</dimen>
+    <dimen name="card_action_padding">8dp</dimen>
+
+    <dimen name="card_stream_bottom_padding">90dp</dimen>
+
+
+</resources>
